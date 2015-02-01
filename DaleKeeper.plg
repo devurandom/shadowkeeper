@@ -1,0 +1,178 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DaleKeeper - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/DaleKeeper.res" /d "_DEBUG" /d "_AFXDLL" "H:\BGII\DaleKeeper.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP22D4.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DaleKeeper.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\BGII\BitmapWnd.cpp"
+"H:\BGII\BrowseDirsDlg.cpp"
+"H:\BGII\CharTabCtrl.cpp"
+"H:\BGII\ChildFrm.cpp"
+"H:\BGII\CopyFilesDlg.cpp"
+"H:\BGII\DaleKeeper.cpp"
+"H:\BGII\DaleKeeperDoc.cpp"
+"H:\BGII\DaleKeeperView.cpp"
+"H:\Common\DirTreeCtrl.cpp"
+"H:\BGII\Global.cpp"
+"H:\BGII\IndexResourcesDlg.cpp"
+"H:\BGII\InfBifFile.cpp"
+"H:\BGII\InfCreature.cpp"
+"H:\BGII\InfGame.cpp"
+"H:\BGII\InfKey.cpp"
+"H:\BGII\InfMosFile.cpp"
+"H:\BGII\InfTlk.cpp"
+"H:\BGII\InstallPathDlg.cpp"
+"H:\BGII\ItemBrowserCom.cpp"
+"H:\BGII\ItemBrowserDoc.cpp"
+"H:\BGII\ItemBrowserFrame.cpp"
+"H:\BGII\ItemBrowserView.cpp"
+"H:\BGII\ItemListCtrl.cpp"
+"H:\BGII\LimitSpellsDlg.cpp"
+"H:\BGII\MainFrm.cpp"
+"H:\BGII\OpenSavedDlg.cpp"
+"H:\BGII\SaveGameDlg.cpp"
+"H:\BGII\SetQtyDlg.cpp"
+"H:\Common\SortStringArray.cpp"
+"H:\BGII\SpellBitmaps.cpp"
+"H:\BGII\SpellBrowserCom.cpp"
+"H:\BGII\SpellBrowserDoc.cpp"
+"H:\BGII\SpellBrowserFrame.cpp"
+"H:\BGII\SpellBrowserView.cpp"
+"H:\BGII\SpellListCtrl.cpp"
+"H:\BGII\TabAbilitiesDlg.cpp"
+"H:\BGII\TabCharacteristicsDlg.cpp"
+"H:\BGII\TabInvDlg.cpp"
+"H:\BGII\TabMemSpellsDlg.cpp"
+"H:\BGII\TabProfsDlg.cpp"
+"H:\BGII\TabResistancesDlg.cpp"
+"H:\BGII\TabSavesDlg.cpp"
+"H:\BGII\TabSpellsDlg.cpp"
+"H:\BGII\TabThiefSkillsDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP22D4.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP22D5.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DaleKeeper.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\BGII\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP22D5.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP22D6.TMP" with contents
+[
+version.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DaleKeeper.pdb" /debug /machine:I386 /out:"Debug/DaleKeeper.exe" /pdbtype:sept 
+.\Debug\BitmapWnd.obj
+.\Debug\BrowseDirsDlg.obj
+.\Debug\CharTabCtrl.obj
+.\Debug\ChildFrm.obj
+.\Debug\CopyFilesDlg.obj
+.\Debug\DaleKeeper.obj
+.\Debug\DaleKeeperDoc.obj
+.\Debug\DaleKeeperView.obj
+.\Debug\DirTreeCtrl.obj
+.\Debug\Global.obj
+.\Debug\IndexResourcesDlg.obj
+.\Debug\InfBifFile.obj
+.\Debug\InfCreature.obj
+.\Debug\InfGame.obj
+.\Debug\InfKey.obj
+.\Debug\InfMosFile.obj
+.\Debug\InfTlk.obj
+.\Debug\InstallPathDlg.obj
+.\Debug\ItemBrowserCom.obj
+.\Debug\ItemBrowserDoc.obj
+.\Debug\ItemBrowserFrame.obj
+.\Debug\ItemBrowserView.obj
+.\Debug\ItemListCtrl.obj
+.\Debug\LimitSpellsDlg.obj
+.\Debug\MainFrm.obj
+.\Debug\OpenSavedDlg.obj
+.\Debug\SaveGameDlg.obj
+.\Debug\SetQtyDlg.obj
+.\Debug\SortStringArray.obj
+.\Debug\SpellBitmaps.obj
+.\Debug\SpellBrowserCom.obj
+.\Debug\SpellBrowserDoc.obj
+.\Debug\SpellBrowserFrame.obj
+.\Debug\SpellBrowserView.obj
+.\Debug\SpellListCtrl.obj
+.\Debug\StdAfx.obj
+.\Debug\TabAbilitiesDlg.obj
+.\Debug\TabCharacteristicsDlg.obj
+.\Debug\TabInvDlg.obj
+.\Debug\TabMemSpellsDlg.obj
+.\Debug\TabProfsDlg.obj
+.\Debug\TabResistancesDlg.obj
+.\Debug\TabSavesDlg.obj
+.\Debug\TabSpellsDlg.obj
+.\Debug\TabThiefSkillsDlg.obj
+.\Debug\DaleKeeper.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP22D6.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BitmapWnd.cpp
+BrowseDirsDlg.cpp
+CharTabCtrl.cpp
+ChildFrm.cpp
+CopyFilesDlg.cpp
+DaleKeeper.cpp
+DaleKeeperDoc.cpp
+DaleKeeperView.cpp
+DirTreeCtrl.cpp
+Global.cpp
+IndexResourcesDlg.cpp
+InfBifFile.cpp
+InfCreature.cpp
+InfGame.cpp
+InfKey.cpp
+InfMosFile.cpp
+InfTlk.cpp
+InstallPathDlg.cpp
+ItemBrowserCom.cpp
+ItemBrowserDoc.cpp
+Generating Code...
+Compiling...
+ItemBrowserFrame.cpp
+ItemBrowserView.cpp
+ItemListCtrl.cpp
+LimitSpellsDlg.cpp
+MainFrm.cpp
+OpenSavedDlg.cpp
+SaveGameDlg.cpp
+SetQtyDlg.cpp
+SortStringArray.cpp
+SpellBitmaps.cpp
+SpellBrowserCom.cpp
+SpellBrowserDoc.cpp
+SpellBrowserFrame.cpp
+SpellBrowserView.cpp
+SpellListCtrl.cpp
+TabAbilitiesDlg.cpp
+TabCharacteristicsDlg.cpp
+TabInvDlg.cpp
+TabMemSpellsDlg.cpp
+TabProfsDlg.cpp
+Generating Code...
+Compiling...
+TabResistancesDlg.cpp
+TabSavesDlg.cpp
+TabSpellsDlg.cpp
+TabThiefSkillsDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DaleKeeper.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
